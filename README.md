@@ -4,9 +4,10 @@
 # twokenizer
 
 The goal of twokenizer is to provide a wrapper around Ark-TweetNLP’s
-part-of-speech tagger, along with an easier download function for both
-the tagger itself and the alternative models provided, which can also be
-found here: <http://www.cs.cmu.edu/~ark/TweetNLP/>
+part-of-speech tagger, which was trained specifically for the tagging of
+tweets, along with an easier download function for both the tagger
+itself and the alternative models provided, which can also be found
+here: <http://www.cs.cmu.edu/~ark/TweetNLP/>
 
 ## Installation
 
@@ -56,7 +57,7 @@ mean:
 
 <img src="man/figures/tweebo_1.jpg" width="460px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_2.jpg" width="460px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_3.jpg" width="460px" style="display: block; margin: auto;" />
 
-Additionally, one may choose to employ Penn Treebank tags if the model
+Alternatively, one may choose to employ Penn Treebank tags if the model
 is downloaded:
 
 ``` r
