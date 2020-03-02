@@ -1,15 +1,17 @@
 Package: twokenizer
 Title: R Wrapper Around Ark-TweetNLP's Twitter POS Tagger
-Version: 0.0.0.9000
+Version: 0.1
 Authors@R: 
     person(given = "Ryan Soh-Eun",
            family = "Shim",
            role = c("aut", "cre"),
            email = "b05102139@ntu.edu.tw")
-Description: R wrapper around Ark-TweetNLP's Twitter POS tagger. Can be used to POS tag tweets in R, returning a dataframe with the columns of word, tag, and confidence. A download function is also included, with which both the required standard model and additional models can be installed directly in R (e.g. the "penn" model returns the tags in the Penn Treebank style).      
+Description: R wrapper around Ark-TweetNLP's Twitter POS tagger by Kevin Gimpel et al. (2011) <https://www.aclweb.org/anthology/P11-2008>. Can be used to POS tag tweets in R, returning a dataframe with the columns of word, tag, and confidence. A download function is also included, with which both the required standard model and additional models can be installed directly in R (e.g. the "penn" model returns the tags in the Penn Treebank style).      
 License: MIT + file LICENSE
+URL: https://github.com/b05102139/twokenizer
+BugReports: https://github.com/b05102139/twokenizer/issues
 Encoding: UTF-8
-LazyData: true    
-RoxygenNote: 7.0.2
+LazyData: true
+RoxygenNote: 7.0.2  
 Suggests: 
     testthat
