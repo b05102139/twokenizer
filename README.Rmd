@@ -35,7 +35,7 @@ twokenizer("~/ark-tweet-nlp-0.3.2", "ikr smh he asked fir yo last name so he can
 
 The function returns a dataframe with the three columns of "word," "tag," and "confidence". Below is a table taken from the original paper by Gimpel et al. on what the tags mean:
 
-```{r, out.width = "300px", fig.align = "center", echo = F}
+```{r, out.width = "460px", fig.align = "center", echo = F}
 knitr::include_graphics("man/figures/tweebo_1.jpg")
 knitr::include_graphics("man/figures/tweebo_2.jpg")
 knitr::include_graphics("man/figures/tweebo_3.jpg")

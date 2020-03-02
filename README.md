@@ -53,7 +53,7 @@ The function returns a dataframe with the three columns of “word,”
 paper by Gimpel et al. on what the tags
 mean:
 
-<img src="man/figures/tweebo_1.jpg" width="300px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_2.jpg" width="300px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_3.jpg" width="300px" style="display: block; margin: auto;" />
+<img src="man/figures/tweebo_1.jpg" width="460px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_2.jpg" width="460px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_3.jpg" width="460px" style="display: block; margin: auto;" />
 
 The download\_twokenizer function works as follows:
 
