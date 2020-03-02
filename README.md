@@ -28,7 +28,8 @@ example of the standard tagger:
 
 ``` r
 library(twokenizer)
-twokenizer("~/ark-tweet-nlp-0.3.2", "ikr smh he asked fir yo last name so he can add u on fb lololol")
+twokenizer(tagger_location = "~/ark-tweet-nlp-0.3.2",
+           text = "ikr smh he asked fir yo last name so he can add u on fb lololol")
 #>       word tag confidence
 #> 1      ikr   !     0.8047
 #> 2      smh   G     0.9340
@@ -54,6 +55,33 @@ paper by Gimpel et al. on what the tags
 mean:
 
 <img src="man/figures/tweebo_1.jpg" width="460px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_2.jpg" width="460px" style="display: block; margin: auto;" /><img src="man/figures/tweebo_3.jpg" width="460px" style="display: block; margin: auto;" />
+
+Additionally, one may choose to employ Penn Treebank tags if the model
+is downloaded:
+
+``` r
+library(twokenizer)
+twokenizer(tagger_location = "~/ark-tweet-nlp-0.3.2",
+           text = "ikr smh he asked fir yo last name so he can add u on fb lololol",
+           model_location = "~/ritter_model")
+#>       word tag confidence
+#> 1      ikr  UH     0.8971
+#> 2      smh  UH     0.9848
+#> 3       he PRP     0.9923
+#> 4    asked VBD     0.9245
+#> 5      fir  NN     0.5381
+#> 6       yo  UH     0.5392
+#> 7     last  JJ     0.9779
+#> 8     name  NN     0.9906
+#> 9       so  IN     0.7546
+#> 10      he PRP     0.9950
+#> 11     can  MD     0.9901
+#> 12     add  VB     0.9844
+#> 13       u PRP     0.9885
+#> 14      on  IN     0.9884
+#> 15      fb NNP     0.9475
+#> 16 lololol  UH     0.8848
+```
 
 The download\_twokenizer function works as follows:
 
